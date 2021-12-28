@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Lee's portfolio</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+ <style>
+
+/* body
+{
+ text-align:left;
+ width:995px;
+ margin:0 auto;
+ padding:0px;
+ font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+ background-color:#CED8F6;
+} */
+#wrapper
+{
+
+ padding:0px;
+ text-align:center;
+ width:995px;
+ height:400px;
+}
+#wrapper h1
+{
+ margin-top:100px;
+ font-size:55px;
+ color:#2E64FE;
+}
+#wrapper h1 a
+{
+ color:#2E64FE;
+ font-size:18px;
+}
+#wrap_content{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.skill_name 
+{
+
+ width:70px;
+ height:40px;
+ line-height:40px;
+ font-weight:bold;
+ font-size:13px;
+ color:white;
+ clear:both;
+ float:left;
+ border-radius:3px 0px 0px 3px;
+}
+#skill_java
+{
+ background-color:#8a2d08;
+}
+#skill_sql
+{
+ background-color:#c08912;
+}
+#skill_html
+{
+ background-color:#7a0791;
+}
+#skill_css
+{
+ background-color:#07916f;
+}
+#skill_javas
+{
+ background-color:#cff015;
+}
+#skill_react
+{
+ background-color:#1e0675;
+}
+#skill_jquery
+{
+ background-color:#15b2f0;
+}
+#skill_spring
+{
+ background-color:#094716;
+}
+#skill_android
+{
+ background-color:#487251;
+}
+#skill_type
+{
+ background-color:#0caa2f;
+}
+.skillbar_wrapper 
+{
+ float:left;
+ position:relative;
+ display:block;
+ margin-bottom:15px;
+ width:400px;
+ background-color:#E6E6E6;
+ height:40px;
+ border-radius:0px 3px 3px 0px;
+}
+.skillbar_bar 
+{
+ height:40px;
+ width:0px;
+ border-radius:0px 3px 3px 0px;
+}
+#skillbar_java
+{
+ background-color:#df1001;
+}
+#skillbar_sql
+{
+ background-color:#e29b17;
+}
+#skillbar_html
+{
+ background-color:#aa0fa2;
+}
+#skillbar_css
+{
+ background-color:#20ce9a;
+}
+#skillbar_spring
+{
+ background-color:#28ad16;
+}
+#skillbar_android
+{
+ background-color:#86b180;
+}
+#skillbar_type
+{
+ background-color:#45fa2d;
+}
+#skillbar_javas
+{
+ background-color:#dfdb01;
+}
+#skillbar_react
+{
+ background-color:#3c01df;
+}
+#skillbar_jquery
+{
+ background-color:#01b3df;
+}
+.skill_bar_percent 
+{
+ position:absolute;
+ right:10px;
+ top:0;
+ font-size:12px;
+ height:35px;
+ line-height:35px;
+ color:black;
+}
+.lang_title{
+    font-weight: 700;
+}
+.web_pic{
+    float:left;
+    margin:10px;
+    height:600px;
+    width:320px;
+    border: 2px solid gray;
+padding: 10px;
+}
+.web_pic2{
+    float:left;
+    margin:10px;
+    height:750px;
+    width:320px;
+    border: 2px solid gray;
+padding: 10px;
+}
+.web_function{
+    font-size: medium;
+}
+.detail_title{
+font-weight: 800;
+
+}
+.tools{
+   float: left;
+   width: 400px;
+   height: 700px;
+   margin-right: 50px;
+   text-align: center;
+}
+.tools p,.tools2 p{
+    font-weight: 800;
+}
+.tools img{
+width: 280px;
+height: 600px;
+}
+.tools2{
+    float: left;
+   width: 400px;
+   height: 200px;
+   text-align: center;
+}
+.tools2 img{
+    width: 400px;
+    height: 80px;
+}
+.after{
+    clear: both;
+   
+}
+.tech li{
+    display: inline-block;
+}
+
+ </style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Lee Dahee</span>
+                <!-- <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                  
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Projects">Projects</a></li>
+                   
+                    
+                    
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Lee
+                        <span class="text-primary">Dahee</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                         010-9422-6092
+                        <a href="mailto:name@email.com">balletsangyu@gmail.com</a>
+                      
+                    </div>
+                 
+                    <p class="lead mb-5">안녕하세요! 늦깍이 신입 개발자 이다희입니다.<br>
+                         쇼핑몰을 공부하기 위하여 시작한 html,css 교재 한권으로 시작된 코딩에 대한 흥미가 개발자가 되고 싶다는 열망으로 이끌었습니다.
+                       좀 더 예쁘고 매출에 도움이 되기 위한 웹의 구성 요소들을 조금씩 수정하다보니 좀 더 보다나은 서비스로 사람들이 편하게 이용할 수 있는 웹을 만들고 싶다는 생각을 가지게 되었습니다. 
+                        그런 생각이 들고 모든 하던 일을 정리하고 IT전문학원인 인천일보아카데미에 21년 6월부터 등록하여 6개월간 공부하였습니다.수업시간 1시간이라도 놓치지 않으려 했고 수업시작 30분 전부터 전날 강의 들었던 프로그래밍을
+                        돌려보며 이미지 메이킹을 해보는 등 공부시간동안 후회없이 열심히 하였습니다.남들보다 다소 늦은 만큼 더욱 더 새로운 변화에 적응하려 노력하겠고 꾸준히 공부하는 자세를 가지겠습니다.
+                    
+                    </p>
+                    <div class="social-icons">
+                      
+                        <a class="social-icon" href="https://github.com/daheelee900"><i class="fab fa-github"></i></a>
+   
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+          
+            
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">보유skill</div>
+              
+                 
+                      
+                    <div id="wrapper">
+                      <div id="wrap_content">
+                        <div class="skill_name" id="skill_java">Java / Jsp</div>
+                        <div class="skillbar_wrapper">
+                         <div class="skillbar_bar" id="skillbar_java"></div>
+                         <div class="skill_bar_percent">70%</div>
+                        </div>
+                    </div>
+                    <div id="wrap_content">
+                        <div class="skill_name" id="skill_sql">Sql</div>
+                        <div class="skillbar_wrapper">
+                         <div class="skillbar_bar" id="skillbar_sql"></div>
+                         <div class="skill_bar_percent">70%</div>
+                        </div>
+                    </div>
+                    <div id="wrap_content">
+                        <div class="skill_name" id="skill_spring">Spring</div>
+                        <div class="skillbar_wrapper">
+                         <div class="skillbar_bar" id="skillbar_spring"></div>
+                         <div class="skill_bar_percent">75%</div>
+                        </div>
+                    </div>
+                    <div id="wrap_content">
+                        <div class="skill_name" id="skill_css">CSS</div>
+                        <div class="skillbar_wrapper">
+                         <div class="skillbar_bar" id="skillbar_css"></div>
+                         <div class="skill_bar_percent">70%</div>
+                        </div>
+                    </div>
+                        <div id="wrap_content">
+                        <div class="skill_name" id="skill_html">Html</div>
+                        <div class="skillbar_wrapper">
+                         <div class="skillbar_bar" id="skillbar_html"></div>
+                         <div class="skill_bar_percent">85%</div>
+                        </div>
+                    </div>
+                        <div id="wrap_content">
+                        <div class="skill_name" id="skill_javas">Javascript</div>
+                        <div class="skillbar_wrapper">
+                         <div class="skillbar_bar" id="skillbar_javas"></div>
+                         <div class="skill_bar_percent">70%</div>
+                        </div>
+                    </div>
+                        <div id="wrap_content">
+                        <div class="skill_name" id="skill_react">ReactJS</div>
+                        <div class="skillbar_wrapper">
+                         <div class="skillbar_bar" id="skillbar_react"></div>
+                         <div class="skill_bar_percent">60%</div>
+                        </div>
+                    </div>
+                        <div id="wrap_content">
+                        <div class="skill_name" id="skill_jquery">JQuery</div>
+                        <div class="skillbar_wrapper">
+                         <div class="skillbar_bar" id="skillbar_jquery"></div>
+                         <div class="skill_bar_percent">80%</div>
+                        </div>
+                    </div>
+                        <div id="wrap_content">
+                        <div class="skill_name" id="skill_type">TypeScript</div>
+                        <div class="skillbar_wrapper">
+                         <div class="skillbar_bar" id="skillbar_type"></div>
+                         <div class="skill_bar_percent">30%</div>
+                        </div>
+                    </div>
+                        <div id="wrap_content">
+                        <div class="skill_name" id="skill_android">Android</div>
+                        <div class="skillbar_wrapper">
+                         <div class="skillbar_bar" id="skillbar_android"></div>
+                         <div class="skill_bar_percent">50%</div>
+                        </div>
+                    </div>
+                        </div>
+                    <div class="subheading mb-3">보유skill 상세내용</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span class="lang_title">Java & Jsp : </span>Java & Jsp Sevlet으로 쇼핑몰, 학사관리 등 간단한 프로젝트 진행가능(MVC). Java의 기본 문법 & 이론 지식 보유.
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span class="lang_title">Sql : </span>Oracle DB, mysql DB개발 시 사용가능.기본적인 질의문 작성가능. view와 간단한 procedule 만들어 사용가능.
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span class="lang_title">Spring : </span>기본 CRUD기능 구현. 각종 라이브러리 이용가능(Mybatis,Oracle JDBC driver,Transaction,Jsoup,json simple,web socket 등) 세션 쿠키처리,인터셉터,크롤링,기본스레드 처리, 웹소켓으로 채팅구현, kakao API Naver API이용가능.
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span class="lang_title">CSS : </span>각 선택자를 지정해서 자유자재로 속성값을 줄 수 있음.
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span class="lang_title">Html : </span>웹 표준 준수한 기본적인 웹 페이지 제작 가능.
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span class="lang_title">Javascript : </span>web application 제작가능 Ajax-Json을 이용한 웹페이지 제작 가능 Promise async await을 통한 비동기처리.화살표함수, let,const es6문법 기본적인 것 사용가능.
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span class="lang_title">ReactJS : </span>components 기반 components 작업가능 usestate를 이용한 상태관리, useeffect로 데이터 비동기 처리 db연결 간단한 프로젝트 가능 현재 redux saga등 좀 더 공부중 .
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span class="lang_title">JQuery : 자바스크립트보다 요소를 선택할 때 간결하고 편리하게 쓸 수 있어서 자주 애용하는 라이브러리이다. 거의 모든 프로젝트를 이 제이쿼리를 사용했다. </span>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span class="lang_title">TypeScript : 요즘 열심히 배우는 중이다. 일단 자바스크립트의 변수의 타입이 정확히 지정되지 않은 점을 보완하기 위해 나온 프론트 언어라서 기본 설정법과 어떤 식으로 작동하는지 개념을 익혔다.</span>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span class="lang_title">Android : 개발툴을 설치하고 기본적인 레이아웃을 만들 수 있다. </span>
+                        </li>
+                    </ul>
+                    <div class="subheading mb-3" style="margin-top:50px;">Tool활용</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span class="lang_title">Eclipse : </span>이클립스로 프로젝트 작업 가능.
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span class="lang_title">Visual Studio Code : </span>Emit문법을 포함해서 여러가지 단축키로 보다 간편하게 작업가능 node.js환경에서 여러가지 프로젝트 진행가능.
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span class="lang_title">Oracle Sql developer &&mysql workbench : </span>여러 사용자를 생성하고 프로젝트에 필요한 질의문 응용.
+                            </li>
+                            <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span class="lang_title">Github : </span>프로젝트에 적용하여 팀단위로 협업가능.
+                        </li>
+                       
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+             <!-- Projects-->
+             <section class="resume-section" id="Projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">1.스.대.소</h3><span style="font-weight: 700;">최신 영화, ebook 대여소</span>
+                            <h6 style="color: gray;margin-top: 5px;">개발인원 : 1명</h6>
+                            <div class="subheading mb-3">
+                                 <p class="web_function"><b>주요기능 : </b>크롤링/카카오api/네이버api/세션/인터셉터/페이징/회원가입/로그인/검색/회원정보수정/카카오페이결제/슬라이드</p></div>
+                            
+                            <div class="web_pic"><img src="./assets/p_1.png" width=300 height=300>
+                                <div class="detail">
+                                    <p class="detail_title">메인페이지</p>
+                                    <p>웹의 가장 첫 화면은 cgv홈페이지에서 크롤링하여 현재 상영하고 있는 영화이미지들을 
+                                        자바스크립트로 자동 슬라이드를 움직이게끔 구현했다.그리고 로그인을 하지않았다면 
+                                        jstl lib로 태그로 if문을 돌려서 login,join태그가 보이게 하였다.</p>
+                                </div>
+                            </div>
+                       
+                            <div class="web_pic">
+                                <img src="./assets/p1_2.png" width=300 height=300>
+                                <div class="detail">
+                                    <p class="detail_title">로그인페이지</p>
+                                    <p>로그인화면이다.만약 로그인을 하지 않고 도서검색이나 영화검색창으로 이동한다면 이 로그인창이 뜨게끔 인터셉터 기능을 넣었다. 그리고 그path를 preHandle함수를
+                                        통해 session에 경로를 저장하고 로그인을 한다면 그 경로를 jsp페이지에서 읽어서 location을 하게끔 설계했다.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="web_pic">
+                                <img src="./assets/p1_3.png" width=300 height=300>
+                                <div class="detail">
+                                    <p class="detail_title">영화검색,구매 페이지</p>
+                                    <p>
+                                      영화검색 페이지 첫 화면은 cgv크롤링을 통해 데이터를 가져와서 출력했고, 보고 싶은 영화를 검색해서 찾는 기능은 naver api를 이용했다.
+                                      각 영화이미지 박스에 대여하기 체크박스를 달아 장바구니 담기 버튼을 누르면 체크된 영화들이 장바구니 페이지에 담긴다.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="web_pic">
+                                <img src="./assets/p1_4.png" width=300 height=300>
+                                <div class="detail">
+                                    <p class="detail_title">도서검색,구매 페이지</p>
+                                    <p>
+                                     보고 싶은 도서를 검색해서 찾는 기능은 역시 naver api를 이용했다.
+                                      각 도서이미지 박스에 대여하기 체크박스를 달아 장바구니 담기 버튼을 누르면 체크된 ebook들이 장바구니 페이지에 담긴다.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="web_pic">
+                                <img src="./assets/p1_5.png" width=300 height=300>
+                                <div class="detail">
+                                    <p class="detail_title">결제 페이지</p>
+                                    <p>
+                                     도서, 영화검색 페이지에서 담은 자료들이 장바구니 db테이블에 담기면서 장바구니 페이지에 담긴다.이때 cart_status값을 줘서 처음 담기면 0으로 시작하고 결제하기를 누르면 1이 된다.결제하기버튼을
+                                     누르면 모달창이 뜨면서 결제할 상품을 다시선택해서 결제하게 했다.그리고 카카오페이api를 이용해 결제 기능을 구현하였다.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="web_pic">
+                                <img src="./assets/p1_6.png" width=300 height=300>
+                                <div class="detail">
+                                    <p class="detail_title">로컬검색 페이지</p>
+                                    <p>
+                                     카카오 지도 api와 로컬검색api를 이용해 지역검색기능을 넣었다. 검색하고 특정 건물의 위치보기 버튼을 누루면 전화번호와 장소명이 마커 위에 표시되게끔 했다.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="after">
+                                <h4>프로젝트시연영상</h4>
+                               
+                      
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/hko2TwQZ-7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               
+                                
+                            </div>
+                            <div class="after">
+                                <h4>배운점</h4>
+                                <p>사실 이 프로젝트는 수업시간에 배운 것을 복습 겸 응용하기위해서 구현한 웹이다. 자바스크립트, 제이쿼리, 각종 라이브러리, 자바코드들을 직접 코딩해보고 필요한 데이터베이스도 스스로 설계해보았다.
+                                    기본 CRUD는 거의 이해할 수 있고 MVC패턴으로 진행했기때문에 그것의 흐름 또한 실감하게 되었다.또 하나 깨닫게 된 점은 처리가 안된 세세한 부분도 여러번 테스트를 통해 처리해 주어야한다는 점이다. 장바구니 담을 때 
+                                    영화검색 페이지에서 처음 크롤링으로 불러온 신작 영화들을 체크박스에 체크하고 담고 나서 영화검색을 다시 할 때 기존 체크박스를 해지해 주어야 한다는지 구매를 하고 장바구니를 비워야 해주는 등 작은 부분이 전체 소프트웨어에 영향을 줄 수 있으니
+                                    신중하게 출시 전 검사가 필요하다는 것이다.
+                                    그리고 크롤링 API같은 것을 찾아서 직접 써 보면서 다양한 서비스를 구현할 수 있다는 것도 알게 되었다.앞으로 더욱 다양한 서비스를 위해 이 프로젝트를 지속적으로 업데이트시킬
+                                    예정이다.
+            
+                                </p>
+                            </div>
+                           
+                            
+                        </div>
+        
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                          <div class="tools">
+                              <h4>사용기술</h4>
+                             <img src="./assets/languages.png">
+                          </div>
+                          <div class="tools">
+                              <h4>개발환경</h4>
+                             <img src="./assets/circumstance.png">
+                          </div>
+                          <div class="tools2">
+                              <h4>개발도구</h4>
+                              <img src="./assets/tools.png">
+                          </div>
+                          <div class="tools2">
+                            <h4>외부API</h4>
+                            <img src="./assets/api.png">
+                        </div>
+                        
+                        </div>
+                     
+                    </div>
+                   
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5" style="margin-top: 50px;">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">2.worthy(워디)</h3><span style="font-weight: 700;">캠핑 예약,밀키트판매(팀프로젝트) </span>
+                            <h6 style="color: gray;margin-top: 5px;">개발인원 : 7명</h6>
+                            <div class="subheading mb-3">
+                                 <p class="web_function"><b>주요기능 : </b>쿠키/세션/인터셉터/페이징/회원가입/로그인/검색/회원정보수정/카카오페이결제/슬라이드/관리자페이지/마이페이지/모달창/채팅/데이트피커</p></div>
+                                 <h4>내가 맡은 부분들</h4>
+                            <div class="web_pic2"><img src="./assets/p2_1.png" width=300 height=300>
+                                <div class="detail">
+                                    <p class="detail_title">메인페이지전체</p>
+                                    <p>웹의 가장 첫 화면 전체디자인을 했고 검색부분에 데이트피커 기능을 이용했고 어디로 검색부분에 말풍선 창을 디자인(영상참조)했다.가운데 부분에는 위에 프로젝트와 동일한 자바스크립트로 슬라이트쇼 함수를 만들어서
+                                        최근추가된 캠핑장 리스트 10개의 이미지들이 자동으로 하나씩 보여지도록 했다.맨밑에는 공지사항, 캠핑팁, 캠핑음식, 자유게시판 각 테이블에서 data중 title만 가져와서 출력해주었다.
+                                    </p>
+                                </div>
+                            </div>
+                       
+                            <div class="web_pic2">
+                                <img src="./assets/p2_2.png" width=300 height=300>
+                                <div class="detail">
+                                    <p class="detail_title">로그인페이지</p>
+                                    <p>로그인화면 전체 디자인과 로그인 기능을 구현했다.로그인창이 처음 로딩될때 애니메이션 효과로 생동감을 부여했다. 인터셉터 기능도 넣었다. 그리고 로그인시 controller에 관리자아이디admin과 일반유저의 리턴int값을 다르게 주어 이동하는 페이지를 다르게 설정했다. 로그인유지에 체크를 한다면 isLogin값을 true로 되게하여
+                                        그런경우 쿠키를 사용하여 로그인이 유지되게끔하였다.기본적으로 세션에 아이디를 저장하여 브라우적가 오픈인 상태일 때 로그인이 유지된다.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="web_pic2">
+                                <img src="./assets/p2_3.png" width=300 height=300>
+                                <div class="detail">
+                                    <p class="detail_title">회원가입 페이지</p>
+                                    <p>
+                                  회원가입페이지 전체디자인과 회원정보 데이터를 인서트하면 로그인 페이지로 이동하게끔 만들었다. 여기서도 전체디자인은 로그인페이지와 비슷하게 만들었다. 제이쿼리로 아이디 중복체크기능을 구현하였고
+                                  다음 주소 api를 이용하여 주소검색하여 주소입력을 보다 쉽게 처리하였다. 아이디를 입력하고 중복체크버튼을 누르면 DB유저테이블에 있는 해당아이디 정보를 vo에 담아 null이면 0,아이면 1을 리턴하여 중복확인기능을 만들었다.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="web_pic2">
+                                <img src="./assets/p2_4.png" width=300 height=300>
+                                <div class="detail">
+                                    <p class="detail_title">상품리스트 페이지</p>
+                                    <p>
+                                     DB에 있는 상품 리스트 테이블에서 데이터들을 가져와 출렸해주었다. 특히 이미지들을 가져오기 위해서 어노테이션 Resource를 설정하고 name값을 빈객체에 저장한 이미지 패스 경로의 id값을 넣어주었다.그리고 출력을 위해 인풋스트림,아웃풋스트림을 이용했다. 이미지 출력 controller도 설정해주었다.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="web_pic2">
+                                <img src="./assets/p2_5.png" width=300 height=300>
+                                <div class="detail">
+                                    <p class="detail_title">상품 읽기페이지 및 리뷰리스트</p>
+                                    <p>
+                                        상품 번호 값을 경로의 url에 넣어주어 해당상품 페이지로 이동해서 그 상품 번호 해당 data들을 출력해주었다. 상품data는 ajax방식이 아닌 model에 vo를 담아서 jsp페이지로 가져왔다. 맨밑에 리뷰리스트는 ajax를 이용했다.해당 상품 번호에 일치하는 리뷰리스트들을 불러와서
+                                        handlbars 템플렛엔진으로 출력했고 Handlebars.registerHelper로 이용해서 리뷰점수에 따른 별개수를 출렸했다.그리고 삭제버튼은 로그인된 유저가 일치하지않을 경우 삭제불가하고 일치하면 삭제가능하다.
+    
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="web_pic2">
+                                <img src="./assets/p2_6.png" width=300 height=300>
+                                <div class="detail">
+                                    <p class="detail_title">1:1문의 채팅창</p>
+                                    <p>
+                                    웹소켓라이브러리를 추가해줘서 마이페이지 1:1채팅기능을 구현해 보았다. xml에 handler를 추가하고 handler에는 클라이언트가 웹소켓 서버로 메세지를 전송했을 때와 연결이 끊어졌을 때의 
+                                    처리 함수를 작성했다. 그리고 그 내용을 저장할 DB table을 만들어주었다. 일반유저가 1:1채팅문의로 메세지를 보내면 각 일반유저마다 채팅방 번호를 매겨 그 채팅방에의 메세지는 관리자와
+                                    그 유저가 보낸 메세지만 출력되게끔 했다. sql 문에서 where절로 일치하는 채팅방 넘버의 데이타만 가져오면 되기 때문이다. 또한 관리자(admin)으로 로그인하면 각 채팅방을 목록화해 그 목록을 클릭하면 
+                                    그 유저의 채팅룸 모달창이 열려 그 유저와의 대화가 가능하게 했다.
+                                    </p>
+                                </div>
+                            </div>
+                         
+                                <!-- <div class="web_pic">
+                               <h4>Database ERD</h4>
+                            <img src="./assets/database.png" width="900" height="600px;">
+                           
+                        </div> -->
+                        <div class="after">
+                            <h4>프로젝트시연영상</h4>
+                           
+                  
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/HGtdqko198c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           
+                            
+                        </div>
+                        <div class="after">
+                            <h4>배운점</h4>
+                            <p>팀프로젝트를 할 때는 좀더 체계적으로 계획을 세워하였다. 구글 드라이버로 공통문서를 관리하고 엑셀에 각 인원에 역활을 분배하고 url을 정리해서 기록해놓았다. 그리고 이미지 파일도 역시 공통문서
+                                파일에 올려두었다. 그리고 형상관리는 깃허브를 사용했는데 수업 시간에 깃허브에 대한 강의를 pull, push, 로컬저장소에 내려받는 법, 원격저장소로 커밋하는 법만 배웠는데 이렇게 팀으로 관리하니 
+                                같은 파일을 작업해서 동시에 두 사람이 커밋하면 출동한다는 사실이나 그 외에 add로 깃 스테이지에 올려서 한꺼번에 커밋하는 등 좀 더 구체적으로 깃허브를 배울 수 있었다. 그리고 내가 맡은 부분은
+                                위에 사진의 파일 설명들이지만 전체적인 프로그램 구동 원리를 이해하기위해 다른 사람들이 작업해놓은 코드를 리뷰해 보았고 내코드와 비교해보았다. 
+
+        
+                            </p>
+                        </div>
+                            
+                        </div>
+        
+                    </div>
+                  
+                    <div class="d-flex flex-column flex-md-row justify-content-between"style="margin-top: 80px;">
+                        <div class="flex-grow-1">
+                          <div class="tools">
+                              <h4>사용기술</h4>
+                             <img src="./assets/lang.png">
+                          </div>
+                          <div class="tools">
+                              <h4>개발환경</h4>
+                             <img src="./assets/circumstance.png">
+                          </div>
+                    
+                          <div class="tools">
+                              <h4>기타</h4>
+                             <img src="./assets/info.png">
+                          </div>
+                    
+                        
+                        </div>
+                     
+                    </div>
+                
+                    
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5" style="margin-top: 50px;">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">3.학사관리(jsp서블렛)</h3><span style="font-weight: 700;">교수,학생,강좌 정보들을 관리하는 프로그램 </span>
+                            <h6 style="color: gray;margin-top: 5px;">개발인원 : 1명</h6>
+                            <div class="subheading mb-3">
+                                 <p class="web_function"><b>주요기능 : </b>CRUD/페이징/프로시져/MVC/jsp서블렛</p></div>
+                                
+                              
+                                 <div class="after">
+                                    <h4>프로젝트시연영상</h4>
+                                   
+                          
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wS8rKnhiieE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   
+                                    
+                                </div>
+                         
+                         
+                        
+                        <div class="after">
+                            <h4>배운점</h4>
+                            <p>이번에는 스프링 프로젝트가 아닌 서블릿을 이용한 jsp서블렛 프로젝트로 간단하게 학사관리 프로그램을 만들었다.contoller의 역활을 하는 sevelet 자바클래스로 페이지를 동적으로
+                                이동시킬 수 있는 것을 보며 여러가지 방법으로 MVC패턴을 만들 수 있다는 것도 알았다. 하지만 역시 스프링 프로젝트에서 코드의 간결화가 이루어지므로 스프링을 선호하지만 이 서블렛 개념을 
+                                이해하지 않고서는 스프링 프레임워크를 이해할 수 없을 것 같다.
+        
+                            </p>
+                        </div>
+                            
+                        </div>
+        
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between"style="margin-top: 80px;">
+                        <div class="flex-grow-1">
+                          <div class="tools3" style="display: flex;">
+                              <h5 >사용기술 : </h5>
+                             <p style="font-size: 18px;">html, jsp서블렛,css,jquery,java,handlbars,ajax</p>
+                          </div>
+                          <div class="tools3" style="display: flex;">
+                            <h5 >개발환경 : </h5>
+                           <p style="font-size: 18px;">Apache Tomcat8.0</p>
+                        </div>
+                    
+                        <div class="tools3" style="display: flex;">
+                            <h5 >개발도구 : </h5>
+                           <p style="font-size: 18px;">Eclipse</p>
+                        </div>
+                        <div class="tools3" style="display: flex;">
+                            <h5 >DB : </h5>
+                           <p style="font-size: 18px;">mysql</p>
+                        </div>
+                    
+                        
+                        </div>
+                     
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5" style="margin-top: 50px;">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">4.블로그(리액트)</h3><span style="font-weight: 700;">할일이나 아무글이나 포스팅하는 개인블로그 </span>
+                            <h6 style="color: gray;margin-top: 5px;">개발인원 : 1명</h6>
+                            <div class="subheading mb-3">
+                                 <p class="web_function"><b>주요기능 : </b>CRUD/페이징/리액트/리액트hook/async비동기처리/상태관리</p></div>
+                                
+                              
+                                 <div class="after">
+                                    <h4>프로젝트시연영상</h4>
+                                   
+                          
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QrlyzaDAw2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   
+                                    
+                                </div>
+                         
+                         
+                        
+                        <div class="after">
+                            <h4>배운점</h4>
+                            <p>자바스크립트를 배우고 그 외에 리액트 라이브러리로 간단한 블로그 프로그램을 만들어 보았다. 스스로 상태를 관리하는 캡슐화된 컴포넌트로 관리하는 개념이 매우 신비로웠다.
+                                react hook을 사용하여 상태관리인 usestate와 useeffect로 가변적인 상태를 쉽게 만들 수 있었다. 그리고 서버를 두개를 돌아가게 만들어 백사이트 서버로 db에 접근해서 필요한 데이터를 
+                                쉽게 가지고 왔다. 이 프로그램에서는 아직 redux를 사용하지 않았지만 앞으로의 프로젝트에서는 이 기술도 사용해봐야겠다.
+        
+                            </p>
+                        </div>
+                            
+                        </div>
+        
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between"style="margin-top: 80px;">
+                        <div class="flex-grow-1">
+                          <div class="tools3" style="display: flex;">
+                              <h5 >사용기술 : </h5>
+                             <p style="font-size: 18px;">react</p>
+                          </div>
+                          <div class="tools3" style="display: flex;">
+                            <h5 >개발환경 : </h5>
+                           <p style="font-size: 18px;">node.js</p>
+                        </div>
+                    
+                        <div class="tools3" style="display: flex;">
+                            <h5 >개발도구 : </h5>
+                           <p style="font-size: 18px;">VSCode</p>
+                        </div>
+                        <div class="tools3" style="display: flex;">
+                            <h5 >DB : </h5>
+                           <p style="font-size: 18px;">mysql</p>
+                        </div>
+                    
+                        
+                        </div>
+                     
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+           
+          
+      
+          
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+ 
+
+      <script src="js/main.js"></script>
+        
+    </body>
+</html>
